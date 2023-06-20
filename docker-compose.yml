@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  transaction-service-app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+    networks:
+      transaction-network:
+        ipv4_address: 10.5.0.5
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      transaction-network:
+        ipv4_address: 10.5.0.6
+
+networks:
+  transaction-network:
+    name: transaction-network
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+          gateway: 10.5.0.1

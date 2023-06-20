@@ -1,0 +1,581 @@
+2023-06-19 18:43:22,509 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 294678 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:43:22,514 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:43:22,548 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 18:43:22,548 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 18:43:23,090 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:43:23,136 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 586 ms
+2023-06-19 18:43:23,409 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:43:23,427 [WARN  ] AnnotationConfigServletWebServerApplicationContext.refresh:616 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-06-19 18:43:23,447 [INFO  ] ConditionEvaluationReportLogger.logMessage:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-19 18:43:23,457 [ERROR ] LoggingFailureAnalysisReporter.report:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-06-19 18:44:06,946 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 295269 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:44:06,950 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:44:06,980 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 18:44:06,981 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 18:44:07,542 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:44:07,592 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 609 ms
+2023-06-19 18:44:07,885 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:44:07,903 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:44:07,911 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.18 seconds (process running for 1.693)
+2023-06-19 18:44:10,895 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 18:44:10,896 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2023-06-19 18:53:45,602 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 302356 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:53:45,606 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:53:45,639 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 18:53:45,639 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 18:53:46,156 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:53:46,202 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 562 ms
+2023-06-19 18:53:46,494 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:53:46,516 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:53:46,526 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.111 seconds (process running for 1.608)
+2023-06-19 18:54:25,928 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-06-19 18:54:25,997 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 302356 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:54:25,998 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:54:26,099 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:54:26,105 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 106 ms
+2023-06-19 18:54:26,156 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:54:26,161 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:54:26,163 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.194 seconds (process running for 41.245)
+2023-06-19 18:54:26,165 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 18:54:34,564 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-19 18:54:34,643 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 302356 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:54:34,643 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:54:34,748 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:54:34,752 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 107 ms
+2023-06-19 18:54:34,795 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:54:34,801 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:54:34,803 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.183 seconds (process running for 49.885)
+2023-06-19 18:54:34,804 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 18:54:41,202 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-19 18:54:41,279 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 302356 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:54:41,279 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:54:41,351 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:54:41,358 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 77 ms
+2023-06-19 18:54:41,399 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:54:41,404 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:54:41,405 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.15 seconds (process running for 56.487)
+2023-06-19 18:54:41,406 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 18:54:55,669 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 303402 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:54:55,674 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:54:55,704 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 18:54:55,704 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 18:54:56,229 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:54:56,274 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 568 ms
+2023-06-19 18:54:56,536 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:54:56,557 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:54:56,568 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.089 seconds (process running for 1.564)
+2023-06-19 18:55:07,398 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 18:55:07,399 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2023-06-19 18:55:26,963 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 17 class path changes (0 additions, 0 deletions, 17 modifications)
+2023-06-19 18:55:27,047 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 303402 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:55:27,048 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:55:27,118 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 18:55:27,164 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:55:27,170 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 119 ms
+2023-06-19 18:55:27,174 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 18:55:27,232 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:55:27,239 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:55:27,242 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.228 seconds (process running for 32.238)
+2023-06-19 18:55:27,243 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 18:55:27,394 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 303913 (started by max in /home/max/visual_studio/service)
+2023-06-19 18:55:27,396 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:55:28,860 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.615 seconds (process running for 2.41)
+2023-06-19 18:55:28,956 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:55:28,959 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:55:28,971 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:55:28,972 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:57:00,707 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
+2023-06-19 18:57:00,785 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 303402 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:57:00,785 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:57:00,863 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:57:00,869 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 83 ms
+2023-06-19 18:57:00,914 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:57:00,918 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:57:00,920 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.16 seconds (process running for 125.916)
+2023-06-19 18:57:00,921 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 18:57:09,321 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 21 class path changes (0 additions, 21 deletions, 0 modifications)
+2023-06-19 18:57:11,840 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 303402 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:57:11,840 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:57:11,911 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:57:11,915 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 74 ms
+2023-06-19 18:57:11,953 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:57:11,958 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:57:11,959 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.139 seconds (process running for 136.955)
+2023-06-19 18:57:11,960 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 18:57:24,340 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 18:57:24,359 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 17 class path changes (17 additions, 0 deletions, 0 modifications)
+2023-06-19 18:57:24,408 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 18:57:24,444 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 303402 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 18:57:24,444 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:57:24,514 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 18:57:24,519 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 73 ms
+2023-06-19 18:57:24,557 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 18:57:24,561 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 18:57:24,563 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.144 seconds (process running for 149.558)
+2023-06-19 18:57:24,563 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 18:57:24,649 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 305668 (started by max in /home/max/visual_studio/service)
+2023-06-19 18:57:24,651 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 18:57:26,090 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.606 seconds (process running for 2.396)
+2023-06-19 18:57:26,192 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:57:26,195 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:57:26,205 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:57:26,206 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 18:57:56,382 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 18:57:56,383 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 0 ms
+2023-06-19 19:05:36,216 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 311267 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 19:05:36,220 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:05:36,252 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 19:05:36,252 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 19:05:36,773 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 19:05:36,818 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 564 ms
+2023-06-19 19:05:37,105 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 19:05:37,126 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 19:05:37,134 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.115 seconds (process running for 1.637)
+2023-06-19 19:05:52,301 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 311514 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 19:05:52,306 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:05:52,335 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 19:05:52,335 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 19:05:52,902 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 19:05:52,952 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 616 ms
+2023-06-19 19:05:53,261 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 19:05:53,284 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 19:05:53,293 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.185 seconds (process running for 1.706)
+2023-06-19 19:05:57,162 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 19:05:57,163 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2023-06-19 19:05:57,215 [INFO  ] TransactionController.load:31 - Received load request with message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+2023-06-19 19:05:57,216 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 19:05:57,241 [INFO  ] TransactionManager.processTransaction:50 - Message Id 50e70c62-e480-49fc-bc1b-e991ac6721781 already processed, declining transaction
+2023-06-19 19:06:19,313 [INFO  ] TransactionController.load:31 - Received load request with message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+2023-06-19 19:06:19,313 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 19:06:19,315 [INFO  ] TransactionManager.processTransaction:50 - Message Id 50e70c62-e480-49fc-bc1b-e991ac6721781 already processed, declining transaction
+2023-06-19 19:06:40,486 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 19:06:40,541 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 19:06:40,760 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 312258 (started by max in /home/max/visual_studio/service)
+2023-06-19 19:06:40,762 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:06:42,229 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.619 seconds (process running for 2.362)
+2023-06-19 19:06:42,319 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:06:42,322 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:06:42,332 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:06:42,334 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:17:26,723 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 322292 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 19:17:26,728 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:17:26,763 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 19:17:26,763 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 19:17:27,312 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 19:17:27,362 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 597 ms
+2023-06-19 19:17:27,657 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 19:17:27,682 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 19:17:27,692 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.171 seconds (process running for 1.663)
+2023-06-19 19:48:20,376 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 19:48:20,433 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 19:48:20,639 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 25702 (started by max in /home/max/visual_studio/service)
+2023-06-19 19:48:20,641 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:48:22,264 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.768 seconds (process running for 2.492)
+2023-06-19 19:48:22,380 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:48:22,383 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:48:22,396 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:48:22,398 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:48:29,095 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 26056 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 19:48:29,099 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:48:29,132 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 19:48:29,132 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 19:48:29,646 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 19:48:29,697 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 562 ms
+2023-06-19 19:48:30,004 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 19:48:30,026 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 19:48:30,034 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.119 seconds (process running for 1.615)
+2023-06-19 19:49:23,197 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 19:49:23,198 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 0 ms
+2023-06-19 19:49:58,312 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 19:49:58,370 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 19:49:58,565 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 27257 (started by max in /home/max/visual_studio/service)
+2023-06-19 19:49:58,567 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:50:00,146 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.711 seconds (process running for 2.486)
+2023-06-19 19:50:00,248 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:50:00,253 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:50:00,268 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 19:50:00,270 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:07:33,621 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 20:07:33,675 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 20:07:33,876 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 10595 (started by max in /home/max/visual_studio/service)
+2023-06-19 20:07:33,883 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 20:07:35,431 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.692 seconds (process running for 2.478)
+2023-06-19 20:07:35,547 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:07:35,551 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:07:35,567 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:07:35,569 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:32:54,367 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 20:32:54,423 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 20:32:54,618 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 24302 (started by max in /home/max/visual_studio/service)
+2023-06-19 20:32:54,620 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 20:32:56,189 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.705 seconds (process running for 2.441)
+2023-06-19 20:32:56,300 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:32:56,305 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:32:56,322 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:32:56,324 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:49:53,733 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 20:49:53,786 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 20:49:54,020 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 33161 (started by max in /home/max/visual_studio/service)
+2023-06-19 20:49:54,025 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 20:49:55,648 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.801 seconds (process running for 2.559)
+2023-06-19 20:49:55,736 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:49:55,739 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:49:55,752 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:49:55,754 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:50:04,376 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 20:50:04,428 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 20:50:04,635 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 33503 (started by max in /home/max/visual_studio/service)
+2023-06-19 20:50:04,636 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 20:50:06,255 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.765 seconds (process running for 2.546)
+2023-06-19 20:50:06,351 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:50:06,355 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:50:06,369 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 20:50:06,371 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:27:24,659 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:27:24,711 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:27:24,921 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 17086 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:27:24,923 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:27:26,499 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.721 seconds (process running for 2.452)
+2023-06-19 21:27:26,616 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:27:26,621 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:27:26,634 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:27:26,635 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:30:25,123 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:30:25,179 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:30:25,409 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 19629 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:30:25,411 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:30:27,007 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.757 seconds (process running for 2.506)
+2023-06-19 21:30:27,132 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:30:27,136 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:30:27,152 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:30:27,154 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:33:41,685 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:33:41,745 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:33:41,946 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 23047 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:33:41,948 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:33:43,531 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.724 seconds (process running for 2.544)
+2023-06-19 21:33:43,658 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:33:43,662 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:33:43,676 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:33:43,678 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:35:07,329 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:35:07,382 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:35:07,589 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 25251 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:35:07,591 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:35:09,250 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.807 seconds (process running for 2.558)
+2023-06-19 21:35:09,366 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:35:09,370 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:35:09,386 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:35:09,388 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:43:38,265 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:43:38,322 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:43:38,534 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 29258 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:43:38,542 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:43:40,202 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.813 seconds (process running for 2.562)
+2023-06-19 21:43:40,319 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:43:40,322 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:43:40,341 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:43:40,343 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:46:43,205 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:46:43,261 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:46:43,478 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 31514 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:46:43,480 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:46:45,037 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.708 seconds (process running for 2.496)
+2023-06-19 21:46:45,148 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:46:45,152 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:46:45,167 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:46:45,168 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:48:42,745 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 33278 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 21:48:42,749 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:48:42,776 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 21:48:42,776 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 21:48:43,277 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 21:48:43,323 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 545 ms
+2023-06-19 21:48:43,363 [INFO  ] DBClient.<init>:25 - dbUri: mongodb://mongo:27017
+2023-06-19 21:48:43,632 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 21:48:43,654 [WARN  ] AnnotationConfigServletWebServerApplicationContext.refresh:616 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-06-19 21:48:43,672 [INFO  ] ConditionEvaluationReportLogger.logMessage:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-19 21:48:43,683 [ERROR ] LoggingFailureAnalysisReporter.report:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-06-19 21:50:25,672 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 34369 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 21:50:25,676 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:50:25,708 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 21:50:25,708 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 21:50:26,268 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 21:50:26,314 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 604 ms
+2023-06-19 21:50:26,357 [INFO  ] DBClient.<init>:25 - dbUri: mongodb://mongodb:27017
+2023-06-19 21:50:26,617 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 21:50:26,646 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 21:50:26,658 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.186 seconds (process running for 1.671)
+2023-06-19 21:50:41,474 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 21:50:41,475 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2023-06-19 21:50:41,533 [INFO  ] TransactionController.load:31 - Received load request with message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+2023-06-19 21:50:41,533 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 21:51:11,543 [ERROR ] TransactionController.load:39 - Exception thrown during processing message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=mongodb:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketException: mongodb}, caused by {java.net.UnknownHostException: mongodb}}]
+	at com.mongodb.internal.connection.BaseCluster.getDescription(BaseCluster.java:184) ~[mongodb-driver-core-4.9.1.jar:?]
+	at com.mongodb.internal.connection.SingleServerCluster.getDescription(SingleServerCluster.java:46) ~[mongodb-driver-core-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate.getConnectedClusterDescription(MongoClientDelegate.java:143) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate.createClientSession(MongoClientDelegate.java:100) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.getClientSession(MongoClientDelegate.java:285) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:177) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.FindIterableImpl.first(FindIterableImpl.java:213) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.transaction.service.managers.TransactionManager.processTransaction(TransactionManager.java:49) ~[classes/:?]
+	at com.transaction.service.controllers.TransactionController.load(TransactionController.java:37) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-19 21:51:38,074 [INFO  ] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-19 21:51:38,147 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 34369 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 21:51:38,147 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:51:38,277 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 21:51:38,283 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 134 ms
+2023-06-19 21:51:38,290 [INFO  ] DBClient.<init>:25 - dbUri: mongodb://localhost:27017
+2023-06-19 21:51:38,356 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 21:51:38,365 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 21:51:38,368 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 0.248 seconds (process running for 73.381)
+2023-06-19 21:51:38,371 [INFO  ] ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2023-06-19 21:51:44,036 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 35130 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 21:51:44,040 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:51:44,068 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 21:51:44,068 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 21:51:44,616 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 21:51:44,666 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 594 ms
+2023-06-19 21:51:44,708 [INFO  ] DBClient.<init>:25 - dbUri: mongodb://localhost:27017
+2023-06-19 21:51:45,005 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 21:51:45,027 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 21:51:45,037 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.218 seconds (process running for 1.688)
+2023-06-19 21:51:47,412 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 21:51:47,413 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2023-06-19 21:51:47,465 [INFO  ] TransactionController.load:31 - Received load request with message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+2023-06-19 21:51:47,465 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 21:51:47,523 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 21:52:29,177 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:52:29,234 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:52:29,467 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 35685 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:52:29,469 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:52:31,031 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.717 seconds (process running for 2.473)
+2023-06-19 21:52:31,127 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:52:31,131 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:52:31,144 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:52:31,145 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:56:41,491 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:56:41,546 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:56:41,748 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 38266 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:56:41,749 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:56:43,333 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.725 seconds (process running for 2.47)
+2023-06-19 21:56:43,435 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:56:43,439 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:56:43,452 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:56:43,453 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:58:44,813 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 21:58:44,864 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 21:58:45,068 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 40217 (started by max in /home/max/visual_studio/service)
+2023-06-19 21:58:45,070 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 21:58:46,647 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.717 seconds (process running for 2.469)
+2023-06-19 21:58:46,751 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:58:46,755 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:58:46,772 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 21:58:46,774 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:02:43,867 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 22:02:43,919 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 22:02:44,110 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 42851 (started by max in /home/max/visual_studio/service)
+2023-06-19 22:02:44,112 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 22:02:45,664 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.685 seconds (process running for 2.451)
+2023-06-19 22:02:45,769 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:02:45,773 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:02:45,787 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:02:45,788 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:29:07,194 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 22:29:07,249 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 22:29:07,453 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 54348 (started by max in /home/max/visual_studio/service)
+2023-06-19 22:29:07,455 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 22:29:09,012 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.697 seconds (process running for 2.451)
+2023-06-19 22:29:09,122 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:29:09,126 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:29:09,141 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:29:09,142 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 22:35:56,225 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 59639 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 22:35:56,229 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 22:35:56,260 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 22:35:56,260 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 22:35:56,851 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 22:35:56,908 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 646 ms
+2023-06-19 22:35:56,960 [INFO  ] DBClient.<init>:25 - dbUri: mongodb://10.5.0.6:27017
+2023-06-19 22:35:57,238 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 22:35:57,265 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 22:35:57,275 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.257 seconds (process running for 1.76)
+2023-06-19 22:36:09,016 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 22:36:09,016 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 0 ms
+2023-06-19 22:36:09,070 [INFO  ] TransactionController.load:31 - Received load request with message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+2023-06-19 22:36:09,070 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 22:36:09,125 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 22:36:53,015 [INFO  ] ServiceApplication.logStarting:51 - Starting ServiceApplication using Java 17.0.7 with PID 60186 (/home/max/visual_studio/service/target/classes started by max in /home/max/visual_studio/service)
+2023-06-19 22:36:53,019 [INFO  ] ServiceApplication.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 22:36:53,049 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-19 22:36:53,049 [INFO  ] DevToolsPropertyDefaultsPostProcessor.logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-19 22:36:53,613 [INFO  ] TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 22:36:53,661 [INFO  ] ServletWebServerApplicationContext.prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 610 ms
+2023-06-19 22:36:53,698 [INFO  ] DBClient.<init>:25 - dbUri: mongodb://10.5.0.7:27017
+2023-06-19 22:36:53,950 [INFO  ] OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2023-06-19 22:36:53,974 [INFO  ] TomcatWebServer.start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 22:36:53,983 [INFO  ] ServiceApplication.logStarted:57 - Started ServiceApplication in 1.197 seconds (process running for 1.726)
+2023-06-19 22:36:55,914 [INFO  ] DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-19 22:36:55,915 [INFO  ] DispatcherServlet.initServletBean:554 - Completed initialization in 0 ms
+2023-06-19 22:36:55,966 [INFO  ] TransactionController.load:31 - Received load request with message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+2023-06-19 22:36:55,966 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac6721781
+2023-06-19 22:37:25,976 [ERROR ] TransactionController.load:39 - Exception thrown during processing message Id 50e70c62-e480-49fc-bc1b-e991ac672173
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=10.5.0.7:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.NoRouteToHostException: No route to host}}]
+	at com.mongodb.internal.connection.BaseCluster.getDescription(BaseCluster.java:184) ~[mongodb-driver-core-4.9.1.jar:?]
+	at com.mongodb.internal.connection.SingleServerCluster.getDescription(SingleServerCluster.java:46) ~[mongodb-driver-core-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate.getConnectedClusterDescription(MongoClientDelegate.java:143) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate.createClientSession(MongoClientDelegate.java:100) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.getClientSession(MongoClientDelegate.java:285) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:177) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.mongodb.client.internal.FindIterableImpl.first(FindIterableImpl.java:213) ~[mongodb-driver-sync-4.9.1.jar:?]
+	at com.transaction.service.managers.TransactionManager.processTransaction(TransactionManager.java:49) ~[classes/:?]
+	at com.transaction.service.controllers.TransactionController.load(TransactionController.java:37) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-19 23:13:29,081 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 23:13:29,135 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 23:13:29,323 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 77438 (started by max in /home/max/visual_studio/service)
+2023-06-19 23:13:29,325 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 23:13:30,810 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.615 seconds (process running for 2.336)
+2023-06-19 23:13:30,896 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 23:13:30,899 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 23:13:30,918 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 23:13:30,920 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 23:14:43,916 [INFO  ] AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 - Could not detect default configuration classes for test class [com.transaction.service.ServiceApplicationTests]: ServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-06-19 23:14:43,969 [INFO  ] SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:248 - Found @SpringBootConfiguration com.transaction.service.ServiceApplication for test class com.transaction.service.ServiceApplicationTests
+2023-06-19 23:14:44,177 [INFO  ] ServiceApplicationTests.logStarting:51 - Starting ServiceApplicationTests using Java 17.0.7 with PID 79072 (started by max in /home/max/visual_studio/service)
+2023-06-19 23:14:44,178 [INFO  ] ServiceApplicationTests.logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 23:14:45,750 [INFO  ] ServiceApplicationTests.logStarted:57 - Started ServiceApplicationTests in 1.72 seconds (process running for 2.477)
+2023-06-19 23:14:45,865 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 23:14:45,870 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 23:14:45,886 [INFO  ] TransactionManager.processTransaction:37 - Processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
+2023-06-19 23:14:45,888 [INFO  ] TransactionManager.processTransaction:94 - Finished processing transaction with message Id 50e70c62-e480-49fc-bc1b-e991ac672178
