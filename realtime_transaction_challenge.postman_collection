@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "ec18d0a1-af15-45ba-86b5-97541660e950",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28037773"
+	},
+	"item": [
+		{
+			"name": "authorization",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"messageId\": \"55210c62-e480-asdf-bc1b-e991ac67FSAC1\",\n    \"userId\": \"8786e2f9-d472-46a8-958f-d659880e723d\",\n    \"transactionAmount\": {\n        \"amount\": \"1\",\n        \"currency\": \"USD\",\n        \"debitOrCredit\": \"CREDIT\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/service-1.0/authorization/50e70c62-e480-49fc-bc1b-e991ac672173",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service-1.0",
+						"authorization",
+						"50e70c62-e480-49fc-bc1b-e991ac672173"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "load",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"messageId\": \"55210c62-e480-asdf-bc1b-e991ac67FSAC\",\n    \"userId\": \"8786e2f9-d472-46a8-958f-d659880e723d\",\n    \"transactionAmount\": {\n        \"amount\": \"1\",\n        \"currency\": \"USD\",\n        \"debitOrCredit\": \"DEBIT\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/service-1.0/load/50e70c62-e480-49fc-bc1b-e991ac672173",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service-1.0",
+						"load",
+						"50e70c62-e480-49fc-bc1b-e991ac672173"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/service-1.0/ping",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service-1.0",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
