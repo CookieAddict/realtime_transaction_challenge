@@ -1,7 +1,5 @@
 package com.transaction.service.database;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -19,10 +17,7 @@ public class DBClient {
 
     private String dbName;
 
-    private static Logger log = LogManager.getLogger(DBClient.class);
-
     public DBClient(@Value("${mongodb.uri}") String dbUri, @Value("${mongodb.database.name}") String dbName) {
-        log.info("dbUri: " + dbUri);
         this.client = MongoClients.create(dbUri);
         this.dbName = dbName;
     }
